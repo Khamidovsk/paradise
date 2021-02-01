@@ -1,0 +1,54 @@
+@media(max-width:900px) {
+    .hpng {
+        width: 0;
+    }
+
+    .navbar {
+        opacity: 0.8;
+        background-color: #000000;
+    }
+    .nav-item {
+        margin-bottom: 15px;
+    }
+
+    .dload {
+        padding: 0;
+        border: 0;
+    }
+
+    .home img {
+        width: 300px !important;
+    }
+
+    .home a {
+        font-size: 12px !important;
+    }
+
+    .socials {
+        display: none;
+    }
+
+    .socials h3 {
+        font-size: 14px;
+    }
+   .divider {
+       display: block;
+       margin-bottom: 20px;
+   }
+
+    
+}
+
+@media(max-width:1600px) {
+    .home img {
+        width: 450px;
+    }
+
+    .home h3 {
+        font-size: 22px;
+    }
+
+    .home a {
+        font-size: 22px;
+    }
+}

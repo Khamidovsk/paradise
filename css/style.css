@@ -1,0 +1,145 @@
+body {
+    background-color: #000000;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+
+header {
+    min-height: 100vh;
+    background: url('../img/bgHome.png') no-repeat center / cover;
+}
+
+
+
+.navbar-link {
+    font-family: 'Josefin Sans', sans-serif;
+    text-transform: uppercase;
+    color: #ffffff;
+    display: inline-block;
+    line-height: 1;
+    text-decoration: none;
+    cursor: pointer;
+    position: relative;
+    font-size: 18px;
+}
+
+.dload {
+    color: #00e5e5;
+}
+
+.dload:hover {
+    color: #00e5e5 !important;
+}
+
+
+.navbar-link:hover {
+    color: #fff;
+
+}
+
+.navbar-link:after {
+    display: block;
+    content: "";
+    background-color: #FE019A;
+    height: 2px;
+    width: 0%;
+    left: 50%;
+    position: absolute;
+    -webkit-transition: width .3s ease-in-out;
+    -moz--transition: width .3s ease-in-out;
+    transition: width .3s ease-in-out;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+.navbar-link:hover:after,
+.navbar-link:focus:after {
+    width: 100%;
+}
+
+
+
+
+.socials {
+    position: absolute;
+    bottom: 8vh;
+    font-size: 22px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #FE019A;
+    display: flex;
+    justify-content: space-around;
+}
+
+.socials h3 {
+    font-family: 'Bree Serif', serif;
+
+}
+
+.socials a {
+    color: #FFF;
+
+}
+
+
+.home {
+    margin: auto;
+    text-align: center;
+    margin-top: 20vh;
+}
+
+.home a {
+    padding: 8px 52px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 22px;
+    color: #00e5e5;
+    border: 1px solid #00e5e5;
+    font-family: 'Bree Serif', serif;
+    transition: 0.1s;
+    margin-right: 15px;
+}
+
+.start {
+    color: #FE019A !important;
+    border: 1px solid #FE019A !important;
+}
+
+.download:hover {
+    -webkit-box-shadow: 0px 0px 5px 2px rgba(0, 229, 229, 1);
+    -moz-box-shadow: 0px 0px 5px 2px rgba(0, 229, 229, 1);
+    box-shadow: 0px 0px 5px 2px rgba(0, 229, 229, 1);
+}
+
+.start:hover {
+    -webkit-box-shadow: 0px 0px 5px 2px rgba(254, 1, 154, 1);
+    -moz-box-shadow: 0px 0px 5px 2px rgba(254, 1, 154, 1);
+    box-shadow: 0px 0px 5px 2px rgba(254, 1, 154, 1);
+
+}
+
+
+
+.home img {
+    width: 610px;
+}
+
+.home h3 {
+    color: #c3c3c3;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-bottom: 30px;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+
+.card {
+    display: flex;
+}
+
+.divider {
+    display: none;
+}
